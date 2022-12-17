@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+	.container-cards {
+		@apply px-4 py-2;
+	}
+	.cardMovie {
+		@apply w-[275px] h-fit shadow-xl border border-black/40 items-baseline;
+	}
+	.trTab {
+		@apply bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100;
+	}
+	.card {
+		@apply bg-red-300 w-24 h-24 rounded-full;
+	}
+}
